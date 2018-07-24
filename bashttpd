@@ -10,7 +10,7 @@
 warn() { echo "WARNING: $@" >&2; }
 
 [ -r bashttpd.conf ] || {
-   cat >bashttpd.conf <<'EOF'
+   sudo cat > bashttpd.conf <<'EOF'
 #
 # bashttpd.conf - configuration for bashttpd
 #
